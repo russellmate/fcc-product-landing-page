@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Product Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="./product-landing-page-logo.png" alt="Company logo">
+        <nav id="nav-bar">
+            <ul class="header-nav">
+                <li class="header-nav">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="header-nav">
+                    <a class="nav-link" href="#how-it-works">How It Works</a>
+                </li>
+                <li class="header-nav">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container" id="main">
+        <section>
+            <h1>Handcrafted, home-made masterpieces</h1>
+            <form id="form" action="https://www.freecodecamp.org/email-submit">
+                <input type="email" id="email" placeholder="Enter your email" name="email" required="">
+                <input type="submit" id="submit" class="button" value="Get started">
+            </form>
+        </section>
+        <div class="container" id="info">
+            <section id="features">
+                <div class="features">
+                    <div class="icon-div">
+                        <img class="icon" src="./thumb-up.png" alt="Thumbs up">
+                    </div>
+                    <div class="description">
+                        <h2>Premium Materials</h2>
+                        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="icon-div">
+                        <img class="icon" src="./delivery-truck.png" alt="Delivery truck">
+                    </div>
+                    <div class="description">
+                        <h2>Fast Shipping</h2>
+                        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="icon-div">
+                        <img class="icon" src="./shield.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h2>Quality Assurance</h2>
+                        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <h2>How It Works</h2>
+                <iframe id="video" type="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0" allowfullscreen="" height="315" frameborder="0"></iframe>
+            </section>
+            <section id="pricing">
+                <div id="price-grid">
+                    <div class="column">
+                        <h3>Tenor Trombone</h3>
+                        <h4>£600</h4>
+                        <p>Lorem ipsum.<br>Lorem ipsum.<br>Lorem ipsum dolor.<br>Lorem ipsum.</p>
+                        <input class="select" type="button" value="Select">
+                    </div>
+                    <div class="column">
+                        <h3>Brass Trombone</h3>
+                        <h4>£900</h4>
+                        <p>Lorem ipsum.<br>Lorem ipsum.<br>Lorem ipsum dolor.<br>Lorem ipsum.</p>
+                        <input class="select" type="button" value="Select">
+                    </div>
+                    <div class="column">
+                        <h3>Valve Trombone</h3>
+                        <h4>£1200</h4>
+                        <p>Lorem ipsum.<br>Lorem ipsum.<br>Lorem ipsum dolor.<br>Lorem ipsum.</p>
+                        <input class="select" type="button" value="Select">
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <ul class="footer-nav">
+                    <li class="footer-nav">
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li class="footer-nav">
+                        <a href="#">Terms</a>
+                    </li>
+                    <li class="footer-nav">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <span id="copyright">Copyright 2016, Original Trombones</span>
+            </footer>
+        </div> 
+    </div>
+</body>
+</html>
